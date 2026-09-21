@@ -1,0 +1,18 @@
+# Ignorar todo
+*
+
+# Permitir carpetas (para que Git entre a ellas)
+!*/
+
+# Permitir notebooks
+!*.ipynb
+
+# Permitir el propio .gitignore
+!.gitignore
+
+# Excluir checkpoints de Jupyter (deben ir DESPUÉS de !*.ipynb)
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Datos que no son tuyos
+mastDownload/
