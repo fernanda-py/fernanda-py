@@ -10,6 +10,9 @@
 # Permitir el propio .gitignore
 !.gitignore
 
+# Permitir scripts de Python
+!*.py
+
 # Excluir checkpoints de Jupyter (deben ir DESPUÉS de !*.ipynb)
 .ipynb_checkpoints/
 *-checkpoint.ipynb
